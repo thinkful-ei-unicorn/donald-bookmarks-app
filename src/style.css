@@ -1,0 +1,83 @@
+main {
+    background-color: turquoise;
+    color: purple;
+
+}
+
+.container {
+    text-align: center;
+
+}
+
+.new-bookmark-container {
+    text-align: center;
+}
+
+
+.container.js-bookmark-item {
+    border: black;
+    border-style: solid;
+
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    font-size: 18px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+label {
+    font-size: 24px;
+}
+
+div.titleInfo {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+li.titleInfo {
+    display: inline-block;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.bookmarkInfo {
+    font-size: 18px;
+}
+
+.filterBM {
+    font-size: 24px;
+}
+
+/* Hides the user information and form for user input */
+.hidden {
+    display: none;
+}
+
+
+/* For desktop version */
+@media all and (min-width:600px) {
+    main {
+        margin: 0;
+    }
+
+}
